@@ -44,6 +44,7 @@ public class MergeSort {
 	    	tijdelijk.add(k, listL.get(j));
 	    	j++;k++;
 	    }    
+	    System.out.println(tijdelijk);
 	    for(int h = 0; h<tijdelijk.size();h++) {
 	    	list.set(h, tijdelijk.get(h));
 	    }
