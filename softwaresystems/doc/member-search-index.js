@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"ss.week1.hotel","c":"Guest","l":"checkin(Room)","url":"checkin(ss.week1.hotel.Room)"},{"p":"ss.week1.hotel","c":"Guest","l":"checkout()"},{"p":"ss.week1.hotel","c":"Guest","l":"getName()"},{"p":"ss.week1.hotel","c":"Guest","l":"getRoom()"},{"p":"ss.week1.hotel","c":"Guest","l":"Guest(String)","url":"%3Cinit%3E(java.lang.String)"}]
