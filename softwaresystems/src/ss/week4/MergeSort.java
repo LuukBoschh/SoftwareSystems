@@ -18,7 +18,6 @@ public class MergeSort {
        	mergesort(links);
        	mergesort(rechts);
        	merge(list, links, rechts);   	
-       	System.out.println(list);
     	}
    	   	    	   	
     	public static <E extends Comparable<E>> void merge(List<E> list, List<E> listL, List<E> listR) {
@@ -44,7 +43,6 @@ public class MergeSort {
 	    	tijdelijk.add(k, listL.get(j));
 	    	j++;k++;
 	    }    
-	    System.out.println(tijdelijk);
 	    for(int h = 0; h<tijdelijk.size();h++) {
 	    	list.set(h, tijdelijk.get(h));
 	    }
