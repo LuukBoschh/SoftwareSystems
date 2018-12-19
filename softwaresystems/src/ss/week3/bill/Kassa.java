@@ -8,7 +8,7 @@ public class Kassa {
 	public static void main(String[] args) {
 		Kassa kassa = new Kassa();
 		kassa.getBill().getSum();
-		kassa.getBill().close()
+		kassa.getBill().close();
 		
 	}
 

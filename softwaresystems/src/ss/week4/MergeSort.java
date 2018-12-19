@@ -15,8 +15,12 @@ public class MergeSort {
     	int m  = list.size()/2;
       	links = list.subList(0, m);
        	rechts = list.subList(m, list.size());
+       	System.out.println(links + "  is links");
+       	System.out.println(rechts + "  is recths");
        	mergesort(links);
        	mergesort(rechts);
+       	System.out.println(links + "  is links");
+       	System.out.println(rechts + "  is recths");
        	merge(list, links, rechts);   	
     	}
    	   	    	   	

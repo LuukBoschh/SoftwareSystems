@@ -13,4 +13,3 @@ public class Print {
 		//System.out.println("f(1) = " + f.apply(1));
 		//System.out.println("f(2) = " + f.apply(2));
 	}
-}
